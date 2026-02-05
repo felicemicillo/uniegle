@@ -1,0 +1,85 @@
+.uploadphoto-dialog .dialog-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.uploadphoto-dialog .dialog-title .top {
+    display: flex;
+    width: 100%;
+}
+
+.uploadphoto-dialog .dialog-title .top .title{
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: -48px;
+}
+
+.uploadphoto-dialog .dialog-title .top .icon-button{
+    margin-left: auto;
+    margin-top: -3px;
+}
+
+.uploadphoto-dialog .dialog-title .divider {
+    width: 100%;
+}
+
+.uploadphoto-dialog .dialog-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.uploadphoto-dialog .dialog-content .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+.uploadphoto-dialog .dialog-content .description .MuiSvgIcon-root {
+    color: rgb(255, 123, 34);
+}
+
+.uploadphoto-dialog .dialog-content .content .description {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.uploadphoto-dialog .dialog-content .content .top-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.uploadphoto-dialog .dialog-content .content .button-icon {
+    margin-left: 4px;
+    margin-top: -3px;
+    font-size: 20px;
+}
+
+.uploadphoto-dialog .dialog-content .content .selected-image-div {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    align-items: center;
+}
+
+.uploadphoto-dialog .dialog-content .content .selected-image-div img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    border: 1px solid black;
+    background-color: rgb(182, 182, 182);
+}
