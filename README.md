@@ -69,5 +69,5 @@ Abbiamo pubblicato l’applicazione, comprensiva di frontend e backend, utilizza
 
 # Gli Autori
 
-- Francesco Scognamiglio
 - Felice Micillo
+- Francesco Scognamiglio
